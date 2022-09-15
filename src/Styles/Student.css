@@ -1,0 +1,50 @@
+.header {
+    background-color: rgb(68, 213, 232);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 20%;
+    height: 40vh;
+    width: 60vw;
+}
+.header p {
+    margin-left: 20%;
+}
+.card {
+    height: 40vh;
+    width: 40vw;
+    border: 2px solid black;
+    background-color: rgba(240, 255, 255, 0.867);
+}
+#data {
+    width: 40vw;
+    height: 20vh;
+}
+#data th {
+    background-color: gray;
+    border: black 1px solid;
+}  
+
+.content{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    align-items: center;
+}
+
+.content>.logOut{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
+.content>.logOut button {
+    height: 5vh;
+    width: 6vw;
+    border-radius: 5px;
+    margin-top: 85%;
+    margin-left: 45%;
+}

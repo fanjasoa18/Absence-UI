@@ -1,0 +1,32 @@
+.contour {
+    margin-top: 2%;
+    margin-left: 15%;
+   height: 70vh;
+   width: 70vw; 
+   border: black solid 1px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+.header .second, .three{
+    margin-left: 25%;
+    text-align: center;
+}
+#data  {
+    padding-top: 2%;
+    height: 52vh;
+    width: 70vw;
+    border: 2px solid grey;
+    background-color: black;
+    color: rgb(68, 213, 232);
+    text-justify: auto;
+    text-align: center;
+}
+#data .check {
+    padding-left: 90%;
+}
+#data td {
+    padding-top: 0%;
+}
